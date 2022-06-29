@@ -50,8 +50,8 @@ def parse_ride(ride):
 
 
 def generate_map_from_last_ride(client, root):
-    # activity = next(client.get_activities(limit=1))
-    activity = client.get_activity(7264144562)
+    activity = next(client.get_activities(limit=1))
+    # activity = client.get_activity(7264144562)
     parsed_activity = parse_ride(activity)
 
     # tiler = Stamen("toner")
