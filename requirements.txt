@@ -1,0 +1,3 @@
+stravalib
+polyline
+python-dotenv
