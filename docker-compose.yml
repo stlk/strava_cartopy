@@ -1,11 +1,11 @@
 services:
-  readme:
+  strava_cartopy:
     build:
       context: .
       dockerfile: Dockerfile
     stdin_open: true
     tty: true
-    image: readme
-    container_name: readme
+    image: strava_cartopy
+    container_name: strava_cartopy
     volumes:
       - ./:/app
